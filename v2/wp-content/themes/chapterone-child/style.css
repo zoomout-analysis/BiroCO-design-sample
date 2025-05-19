@@ -1,0 +1,96 @@
+/*
+Theme Name: ChapterOne Child
+Theme URI: https://chapterone.qodeinteractive.com/
+Description: A child theme of ChapterOne Theme
+Author: Mikado Themes
+Author URI: http://themeforest.net/user/mikado-themes
+Version: 1.0.1
+Text Domain: chapterone
+Template: chapterone
+*/
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.mkdf-mobile-logo-wrapper a{
+    max-height: 55px;
+}
+
+@media screen and (min-width: 1025px) {
+    .mkdf-logo-wrapper a{
+        max-height: 69px !important;
+
+    }
+}
+/* menu color */
+.mkdf-main-menu>ul>li.mkdf-active-item>a {
+    color: #053f7f;
+}
+/* menu color */
+
+h1,h2,h3,h4,h5,.mkdf-main-menu>ul>li>a,.rs-module,.mkdf-section-title-holder .mkdf-st-text{
+    /* font-family: "Manrope", sans-serif !important; */
+    font-family: "Roboto", sans-serif !important;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+.mkdf-main-menu>ul>li>a{
+    padding: 0 12px !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+
+    
+}
+.mkdf-main-menu>ul>li>a:hover{
+     color: rgba(221, 153, 51, 1) !important;
+}
+.mkdf-pl-holder .mkdf-pl-categories ul li a.active, .mkdf-pl-holder .mkdf-pl-categories ul li a:hover{
+
+}
+.mkdf-main-menu>ul>li>a:after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid rgba(221, 153, 51, 1) !important;
+  width: 0;
+  position: absolute;
+  left: 0;
+  -webkit-transition: 1s ease;
+  transition: 0.7s ease;
+  bottom: 0;
+}
+.mkdf-main-menu>ul>li>a:hover:after { 
+  width: 100%; 
+}
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-left-inner{
+        display: flex
+;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-grow: 3;
+}
+.mkdf-main-menu>ul {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    gap: 8px;
+    display: flex;
+}
+
+.mkdf-side-menu-button-opener,.mkdf-search-opener{
+    display: none !important;
+}
+
+.mkdf-pl-holder .mkdf-pl-categories ul li a.active, .mkdf-pl-holder .mkdf-pl-categories ul li a:hover{
+    background-color: rgba(221, 153, 51, 1) !important;
+    border-color: #dd9933 !important;
+    color: #000 !important;
+}
+
+.mkdf-pl-holder .mkdf-pli-inner .mkdf-pli-text{
+    background-color: rgba(5, 64, 127,0.95) !important;
+}
