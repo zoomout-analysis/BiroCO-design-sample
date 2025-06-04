@@ -1,0 +1,214 @@
+/*
+Theme Name: ChapterOne Child
+Theme URI: https://chapterone.qodeinteractive.com/
+Description: A child theme of ChapterOne Theme
+Author: Mikado Themes
+Author URI: http://themeforest.net/user/mikado-themes
+Version: 1.0.2
+Text Domain: chapterone
+Template: chapterone
+*/
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.mkdf-mobile-logo-wrapper a{
+    max-height: 55px;
+}
+body.woocommerce-checkout .checkout.woocommerce-checkout{
+	font-family: "Spectral", "Cormorant Garamond",sans-serif;
+  
+  color: #000 !important;
+}
+@media screen and (min-width: 1025px) {
+    .mkdf-logo-wrapper a{
+        max-height: 69px !important;
+
+    }
+}
+/* menu color */
+.mkdf-main-menu>ul>li.mkdf-active-item>a {
+    color: #053f7f;
+}
+/* menu color */
+
+h1,h2,h3,h4,h5,.mkdf-main-menu>ul>li>a,.rs-module,.mkdf-section-title-holder .mkdf-st-text{
+    /* font-family: "Manrope", sans-serif !important; */
+    font-family: "Spectral", serif !important;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+.mkdf-main-menu>ul>li>a{
+    padding: 0 12px !important;
+
+    
+}
+.mkdf-main-menu>ul>li>a:hover{
+     color: #053f7f !important;
+}
+.mkdf-main-menu>ul>li>a:after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid rgb(5, 64, 127);
+  width: 0;
+  position: absolute;
+  left: 0;
+  -webkit-transition: 1s ease;
+  transition: 0.7s ease;
+  bottom: 0;
+}
+.mkdf-main-menu>ul>li>a:hover:after { 
+  width: 100%; 
+}
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-left-inner{
+        display: flex
+;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-grow: 3;
+}
+.mkdf-main-menu>ul {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    gap: 8px;
+    display: flex;
+}
+
+#rev_slider_8_1_wrapper{
+    background: #fff !important;
+}
+.mkdf-main-menu>ul>li>a>span.item_outer .item_text{
+    color: #000 !important;
+}
+.mkdf-page-header .mkdf-vertical-align-containers{
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.mkdf-light-header .mkdf-page-header>div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area{
+
+}
+.mkdf-pl-holder .mkdf-pli-inner .mkdf-pli-text{
+    background-color: rgba(5, 64, 127,0.95) !important;
+}
+
+.mkdf-light-header .mkdf-page-header>div:not(.mkdf-sticky-header):not(.fixed) .mkdf-search-opener, .mkdf-light-header .mkdf-top-bar .mkdf-search-opener{
+    color: #141414 !important;
+}
+
+.mkdf-st-inner{
+    margin-bottom: 64px !important;
+}
+
+
+/* Override red hover background from WooCommerce/Theme */
+.woocommerce-page .mkdf-content .wc-forward:not(.added_to_cart):not(.checkout-button):hover,
+.woocommerce-page .mkdf-content a.added_to_cart:hover,
+.woocommerce-page .mkdf-content a.button:hover,
+.woocommerce-page .mkdf-content button[type="submit"]:not(.mkdf-search-submit):hover,
+.woocommerce-page .mkdf-content input[type="submit"]:hover,
+div.woocommerce .wc-forward:not(.added_to_cart):not(.checkout-button):hover,
+div.woocommerce a.added_to_cart:hover,
+div.woocommerce a.button:hover,
+div.woocommerce button[type="submit"]:not(.mkdf-search-submit):hover,
+div.woocommerce input[type="submit"]:hover {
+  background-color: #053f7f !important; /* Biroco  blue */
+  color: #fff !important;
+}
+a:hover, p a:hover {
+  color: #053f7f;
+}
+ul.products > .product .mkdf-pl-inner .mkdf-pl-text{
+	background-color: rgba(5, 63, 127, 95) !important;
+}
+
+
+/* Donation radio inline layout */
+.form-row-wide .cause-donation-option {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 24px;
+    margin-bottom: 10px;
+}
+
+.form-row-wide .cause-donation-option input[type="radio"] {
+    margin-right: 6px;
+}
+
+.woocommerce .custom-description {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.shipping_address{
+/* 	display:block !important; */
+}
+.shipping_address .custom-description{
+	font-size:1rem;
+}
+
+textarea#order_comments{
+	min-height: 158px;
+}
+#cause_donation_field h3,
+#ship-to-different-address,
+.woocommerce-billing-fields h3{
+	margin-bottom: 16px;
+	background-color: #053f7f;
+  color: #fff;
+	padding: 8px 12px;
+	font-size:1.5rem;
+}
+
+.mkdf-woocommerce-page .woocommerce-info{
+	padding: 2px 30px !important;
+	font-family: "Spectral", "Cormorant Garamond",sans-serif;
+}
+#cause_donation_field .custom-description{
+	font-size:1rem;
+}
+header.mkdf-page-header .mkdf-sc-opener-total{display:none;}
+
+.woocommerce-form-coupon-toggle .woocommerce-info{
+	padding: 0px 30px;
+}
+
+/* .mkdf-title-holder.mkdf-centered-type.mkdf-title-va-header-bottom.mkdf-has-bg-image,
+.mkdf-title-holder.mkdf-centered-type.mkdf-title-va-header-bottom.mkdf-has-bg-image .mkdf-title-wrapper{
+	height:200px !important;
+}
+.mkdf-title-holder.mkdf-centered-type.mkdf-title-va-header-bottom.mkdf-has-bg-image h2.mkdf-page-title.entry-title{
+	color:#000 !important;
+} */
+
+.blockUI.blockOverlay{
+	opacity:0;
+	display:none !important;
+}
+
+}
+.mkdf-content .mkdf-content-inner > .mkdf-container > .mkdf-container-inner, .mkdf-content .mkdf-content-inner > .mkdf-full-width > .mkdf-full-width-inner {
+  padding-top: 83px;
+  padding-bottom: 110px;
+}
+input, select,textarea,body .select2-container--default .select2-selection--single{
+	border-color:#555 !important;
+}
+input, select,textarea{
+	color:#ccc;
+}
+.mkdf-title-holder{
+
+  background-size: 100%;
+  background-position: center center;
+}
+
+
+
