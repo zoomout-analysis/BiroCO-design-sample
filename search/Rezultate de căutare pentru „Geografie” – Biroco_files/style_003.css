@@ -268,3 +268,68 @@ body.woocommerce-cart .wc-block-components-product-price{
 .widget.widget_text.mkdf-top-bar-widget .textwidget p{
 	color:#fff;
 }
+
+.mkdf-pl-single-author-holder{
+	display:none !important;
+}
+
+.mkdf-woo-single-page .mkdf-single-product-summary .mkdf-pl-reviews-holder .mkdf-pl-single-review-star-holder.mkdf-numbers-star-4 .mkdf-icon-element:nth-child(1),
+.mkdf-woo-single-page .mkdf-single-product-summary .mkdf-pl-reviews-holder .mkdf-pl-single-review-star-holder.mkdf-numbers-star-4 .mkdf-icon-element:nth-child(2),
+.mkdf-woo-single-page .mkdf-single-product-summary .mkdf-pl-reviews-holder .mkdf-pl-single-review-star-holder.mkdf-numbers-star-4 .mkdf-icon-element:nth-child(3),
+.mkdf-woo-single-page .mkdf-single-product-summary .mkdf-pl-reviews-holder .mkdf-pl-single-review-star-holder.mkdf-numbers-star-4 .mkdf-icon-element:nth-child(4) {
+  color:#053f7f !important;
+}
+
+.mkdf-woo-single-page .mkdf-single-product-summary .mkdf-pl-reviews-holder .mkdf-pl-single-review-star-holder.mkdf-numbers-star-5 .mkdf-icon-element {
+  color: #053f7f !important;
+}
+
+.mkdf-header-standard .mkdf-widget-border.mkdf-side-menu-button-opener-icon-pack {
+  padding-right: 0;
+  display: none;
+}
+
+.mkdf-content .woocommerce-pagination ul li span.current,
+.mkdf-content .mkdf-blog-pagination ul li.mkdf-pag-active a{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #053f7f;
+  font-size: 18px;
+  text-align: center;
+}
+.mkdf-content .woocommerce-pagination ul li a,
+.mkdf-content .mkdf-blog-pagination ul li a{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  line-height: 24px;
+  color: #999;
+  border-radius: 50%;
+	 font-size: 18px;
+	line-height: 30px;
+  text-align: center;
+  background-color: transparent;
+}
+.mkdf-content .woocommerce-pagination ul li a.next{
+	margin-top: -3px;
+}
+.mkdf-content .mkdf-blog-pagination ul li.mkdf-pag-next{
+	top:0;
+}
+.mkdf-content .mkdf-blog-pagination ul li.mkdf-pag-next a{
+  margin-top: -3px;
+}
